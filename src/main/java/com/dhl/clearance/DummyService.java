@@ -6,11 +6,9 @@ package com.dhl.clearance;
 import java.util.Date;
 
 
-public class DummyService implements java.io.Serializable {
+public class DummyService {
 
-    static final long serialVersionUID = 1L;
-
-    public String hello(String name) {
+    public static String hello(String name) throws Exception {
         System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
         return "Hello " + name + "!";
     }
