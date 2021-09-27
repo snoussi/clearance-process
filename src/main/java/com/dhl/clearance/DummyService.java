@@ -8,10 +8,9 @@ public class DummyService implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
-    public DummyService() {
+    public String hello(String name) {
+        System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
+        return "Hello " + name + "!";
     }
-
-
-
 
 }
