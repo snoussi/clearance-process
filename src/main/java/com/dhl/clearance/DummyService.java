@@ -15,7 +15,7 @@ public class DummyService {
     }
     
     public static String enrichment(String trackingNumber) throws Exception {
-        Fakerm faker = new Faker();
+        Faker faker = new Faker();
         return faker.country().name();
     }    
  
