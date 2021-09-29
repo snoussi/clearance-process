@@ -13,7 +13,7 @@ public class DummyService {
         return "Hello " + name + "!";
     }
     
-    public static String enrichment(String name) throws Exception {
+    public static String enrichment(String trackingNumber) throws Exception {
         // System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
         return "Hello " + name + "!";
     }    
