@@ -5,7 +5,7 @@ package com.dhl.clearance;
  */
 import java.util.Date;
 import java.util.Random;
-import com.github.javafaker.Faker;
+import com.github.javafaker.Fakerm;
 
 public class DummyService {
 
@@ -15,7 +15,7 @@ public class DummyService {
     }
     
     public static String enrichment(String trackingNumber) throws Exception {
-        Faker faker = new Faker();
+        Fakerm faker = new Fakerm();
         return faker.country().name();
     }    
  
