@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.dhl</groupId>
   <artifactId>clearance</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>clearance</name>
   <description>Use Case 1 - Clearance Shipment Preparation</description>
