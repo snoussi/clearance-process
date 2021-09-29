@@ -9,8 +9,13 @@ import java.util.Date;
 public class DummyService {
 
     public static String hello(String name) throws Exception {
-        System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
+        // System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
         return "Hello " + name + "!";
     }
+    
+    public static String enrichment(String name) throws Exception {
+        // System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
+        return "Hello " + name + "!";
+    }    
 
 }
