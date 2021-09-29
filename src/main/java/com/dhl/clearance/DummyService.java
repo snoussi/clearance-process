@@ -19,7 +19,7 @@ public class DummyService {
         return faker.country().name();
     }    
  
-     public static Integer enrichment(String trackingNumber) throws Exception {
+     public static Integer valuation(String trackingNumber) throws Exception {
         Random random = new Random();
         Integer value = random.nextInt(3000);
         return value;
