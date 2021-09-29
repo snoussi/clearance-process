@@ -15,7 +15,7 @@ public class DummyService {
     
     public static String enrichment(String trackingNumber) throws Exception {
         // System.out.println(Thread.currentThread().getName() + " Service invoked with name " + name);
-        return "Hello " + name + "!";
+        return "Hello " + trackingNumber + "!";
     }    
 
 }
