@@ -4,39 +4,7 @@
       <include>true</include>
       <metadata>
         <id>central</id>
-        <url>https://repo.maven.apache.org/maven2/</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>enterprise</id>
-        <url>https://maven.repository.redhat.com/techpreview/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-earlyaccess-plugin-repository</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fusesource.snapshot</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public-snapshots/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <url>https://repo1.maven.org/maven2</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -44,64 +12,8 @@
       <include>true</include>
       <metadata>
         <id>local</id>
-        <url>/Users/snoussi/.m2/repository</url>
+        <url>/home/jboss/.m2/repository</url>
         <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fusesource</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-plugins</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>apache-public</id>
-        <url>https://repository.apache.org/content/groups/public/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-snapshot-plugins</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-techpreview-all-repository</id>
-        <url>https://maven.repository.redhat.com/techpreview/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-earlyaccess-repository</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-snapshot</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
