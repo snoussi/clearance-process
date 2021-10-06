@@ -31,6 +31,9 @@ public class CategorizationResult implements java.io.Serializable {
 		this.category = category;
 	}
 
+	public CategorizationResult() {
+	}
+
 	public java.lang.String getCategory() {
 		return category;
 	}
