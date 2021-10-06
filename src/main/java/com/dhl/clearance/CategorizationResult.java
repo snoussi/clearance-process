@@ -38,4 +38,12 @@ public class CategorizationResult implements java.io.Serializable {
 	public void setCategory(java.lang.String category) {
 		this.category = category;
 	}
+	
+    @Override
+    public String toString() {
+        return "{" +
+                "Value='" + value + '\'' +
+                ", Category='" + category + '\'' +
+                '}';
+    }	
 }
