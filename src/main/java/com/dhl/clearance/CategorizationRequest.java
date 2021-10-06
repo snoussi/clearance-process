@@ -14,19 +14,16 @@ public class CategorizationRequest implements java.io.Serializable {
 
 	public CategorizationRequest() {
 	}
-
+	
+	public CategorizationRequest(java.lang.Integer value) {
+		this.value = value;
+	}
+	
 	public java.lang.Integer getValue() {
 		return this.value;
 	}
 
 	public void setValue(java.lang.Integer value) {
-		this.value = value;
-	}
-
-	public CategorizationRequest() {
-	}
-
-	public CategorizationRequest(java.lang.Integer value) {
 		this.value = value;
 	}
 
