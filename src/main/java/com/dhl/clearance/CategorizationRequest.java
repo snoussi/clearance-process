@@ -28,4 +28,10 @@ public class CategorizationRequest implements java.io.Serializable {
 		this.value = value;
 	}
 
+    @Override
+    public String toString() {
+        return "{" +
+                "Value='" + value + '\'' +
+                '}';
+    }
 }
