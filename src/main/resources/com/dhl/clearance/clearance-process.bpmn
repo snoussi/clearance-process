@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_AcZG4CbPEeyByIiaw8CXpQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_H7fVsCbPEeyByIiaw8CXpQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_shipmentOriginCountryItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_shipmentTrackingNumberItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_shipmentValueItem" structureRef="Integer"/>
@@ -68,12 +68,12 @@
   <bpmn2:itemDefinition id="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryOutputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueOutputXItem" structureRef="Integer"/>
   <bpmn2:itemDefinition id="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberOutputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputXItem" structureRef="com.dhl.clearance.CategorizationRequest"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputXItem" structureRef="com.dhl.clearance.CategorizationRequest"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptCharsetInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptHeaderInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AuthTypeInputXItem" structureRef="String"/>
@@ -102,7 +102,7 @@
       <bpmn2:outMessageRef>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_OutMessage</bpmn2:outMessageRef>
     </bpmn2:operation>
   </bpmn2:interface>
-  <bpmn2:message id="_AcZHJCbPEeyByIiaw8CXpQ" itemRef="customType" name="custom"/>
+  <bpmn2:message id="_H7fV9ibPEeyByIiaw8CXpQ" itemRef="customType" name="custom"/>
   <bpmn2:message id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_InMessage" itemRef="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_InMessageType"/>
   <bpmn2:message id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_OutMessage" itemRef="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_OutMessageType"/>
   <bpmn2:interface id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ServiceInterface" name="com.dhl.clearance.DummyService" implementationRef="com.dhl.clearance.DummyService">
@@ -111,7 +111,7 @@
       <bpmn2:outMessageRef>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_OutMessage</bpmn2:outMessageRef>
     </bpmn2:operation>
   </bpmn2:interface>
-  <bpmn2:message id="_AcZHFybPEeyByIiaw8CXpQ" itemRef="clearanceType" name="clearance"/>
+  <bpmn2:message id="_H7fV6SbPEeyByIiaw8CXpQ" itemRef="clearanceType" name="clearance"/>
   <bpmn2:process id="clearance.clearance-process" drools:packageName="com.dhl.clearance" drools:version="1.0" drools:adHoc="false" name="clearance-process" isExecutable="true" processType="Public">
     <bpmn2:property id="shipmentOriginCountry" itemSubjectRef="_shipmentOriginCountryItem" name="shipmentOriginCountry">
       <bpmn2:extensionElements>
@@ -191,7 +191,7 @@
           <drools:metaValue><![CDATA[yes]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_AcZG4SbPEeyByIiaw8CXpQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(mandatoryFieldCheck);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_H7fVsSbPEeyByIiaw8CXpQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(mandatoryFieldCheck);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_C70B1A07-9072-48AB-91B2-FFC365EC72FC" sourceRef="_428759C9-34BB-426E-B896-7BBD93E41CD3" targetRef="_84109610-D610-451E-9604-65F9E19F487C">
       <bpmn2:extensionElements>
@@ -202,7 +202,7 @@
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_B15165D0-F890-438A-961E-2CA87E87CBA6" sourceRef="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C" targetRef="_428759C9-34BB-426E-B896-7BBD93E41CD3"/>
     <bpmn2:task id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F" drools:taskName="Rest" name="Categorization">
-      <bpmn2:documentation id="_AcZG4ibPEeyByIiaw8CXpQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_H7fVsibPEeyByIiaw8CXpQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Categorization]]></drools:metaValue>
@@ -218,13 +218,13 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B8D0E07D-5C24-4140-BE47-C4BF585F2150</bpmn2:incoming>
       <bpmn2:outgoing>_AB5442F4-5AE0-4232-B24D-9639415F2D48</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZG4ybPEeyByIiaw8CXpQ">
-        <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputX" drools:dtype="com.dhl.clearance.CategorizationRequest" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputXItem" name="ContentData"/>
+      <bpmn2:ioSpecification id="_H7fVsybPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputXItem" name="ContentType"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputXItem" name="HandleResponseErrors"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputXItem" name="ResultClass"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputXItem" name="Url"/>
+        <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputX" drools:dtype="com.dhl.clearance.CategorizationRequest" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputXItem" name="ContentData"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptCharsetInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptCharsetInputXItem" name="AcceptCharset"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptHeaderInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptHeaderInputXItem" name="AcceptHeader"/>
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AuthTypeInputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_AuthTypeInputXItem" name="AuthType"/>
@@ -238,13 +238,13 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
         <bpmn2:dataInput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultOutputX" drools:dtype="com.dhl.clearance.CategorizationResult" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultOutputXItem" name="Result"/>
         <bpmn2:dataOutput id="_10DAE09D-A660-41F1-8A7C-0A1065952E6F_Result.categoryOutputX" drools:dtype="String" itemSubjectRef="__10DAE09D-A660-41F1-8A7C-0A1065952E6F_Result.categoryOutputXItem" name="Result.category"/>
-        <bpmn2:inputSet id="_AcZG5CbPEeyByIiaw8CXpQ">
-          <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputX</bpmn2:dataInputRefs>
+        <bpmn2:inputSet id="_H7fVtCbPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptCharsetInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AcceptHeaderInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_AuthTypeInputX</bpmn2:dataInputRefs>
@@ -257,54 +257,62 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UsernameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZG5SbPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fVtSbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_Result.categoryOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZG5ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVtibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG5ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG6CbPEeyByIiaw8CXpQ"><![CDATA[application/json]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG6SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVtybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVuCbPEeyByIiaw8CXpQ"><![CDATA[application/json]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVuSbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentTypeInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZG6ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVuibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG6ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG7CbPEeyByIiaw8CXpQ"><![CDATA[true]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG7SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVuybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVvCbPEeyByIiaw8CXpQ"><![CDATA[true]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVvSbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_HandleResponseErrorsInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZG7ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVvibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG7ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG8CbPEeyByIiaw8CXpQ"><![CDATA[POST]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG8SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVvybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVwCbPEeyByIiaw8CXpQ"><![CDATA[POST]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVwSbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZG8ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVwibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG8ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG9CbPEeyByIiaw8CXpQ"><![CDATA[com.dhl.clearance.CategorizationResult]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG9SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVwybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVxCbPEeyByIiaw8CXpQ"><![CDATA[com.dhl.clearance.CategorizationResult]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVxSbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultClassInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZG9ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVxibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG9ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG-CbPEeyByIiaw8CXpQ"><![CDATA[http://categorization-dmn-dhl-demo.apps.ocp4.snoussi.xyz/shipment-categorization]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG-SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVxybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVyCbPEeyByIiaw8CXpQ"><![CDATA[http://categorization-dmn-dhl-demo.apps.ocp4.snoussi.xyz/shipment-categorization]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVySbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZG-ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fVyibPEeyByIiaw8CXpQ">
+        <bpmn2:sourceRef>categorizationRequest</bpmn2:sourceRef>
+        <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ContentDataInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_H7fVyybPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZG-ybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZG_CbPEeyByIiaw8CXpQ"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZG_SbPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fVzCbPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fVzSbPEeyByIiaw8CXpQ"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fVzibPEeyByIiaw8CXpQ">_10DAE09D-A660-41F1-8A7C-0A1065952E6F_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZG_ibPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fVzybPEeyByIiaw8CXpQ">
+        <bpmn2:sourceRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_ResultOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>categorizationResult</bpmn2:targetRef>
+      </bpmn2:dataOutputAssociation>
+      <bpmn2:dataOutputAssociation id="_H7fV0CbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_10DAE09D-A660-41F1-8A7C-0A1065952E6F_Result.categoryOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentCategory</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -322,7 +330,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_EFA6E640-ACCD-4B58-9FC1-D77F1E8C3C04</bpmn2:incoming>
       <bpmn2:outgoing>_40A1A6B7-1D44-4BD4-A592-0F5992EA7FEA</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZG_ybPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fV0SbPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberInputX" drools:dtype="String" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberInputXItem" name="trackingNumber"/>
         <bpmn2:dataInput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryInputX" drools:dtype="String" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryInputXItem" name="originCountry"/>
@@ -332,7 +340,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
         <bpmn2:dataOutput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryOutputX" drools:dtype="String" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryOutputXItem" name="originCountry"/>
         <bpmn2:dataOutput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueOutputX" drools:dtype="Integer" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueOutputXItem" name="value"/>
         <bpmn2:dataOutput id="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberOutputX" drools:dtype="String" itemSubjectRef="__778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberOutputXItem" name="trackingNumber"/>
-        <bpmn2:inputSet id="_AcZHACbPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fV0ibPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryInputX</bpmn2:dataInputRefs>
@@ -340,54 +348,54 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
           <bpmn2:dataInputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_GroupIdInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHASbPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fV0ybPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHAibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV1CbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHAybPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHBCbPEeyByIiaw8CXpQ"><![CDATA[support-task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHBSbPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV1SbPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fV1ibPEeyByIiaw8CXpQ"><![CDATA[support-task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fV1ybPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHBibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV2CbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHBybPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV2SbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentOriginCountry</bpmn2:sourceRef>
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHCCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV2ibPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentValue</bpmn2:sourceRef>
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHCSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV2ybPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHCibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHCybPEeyByIiaw8CXpQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHDCbPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV3CbPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fV3SbPEeyByIiaw8CXpQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fV3ibPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHDSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV3ybPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_GroupIdInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHDibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHDybPEeyByIiaw8CXpQ"><![CDATA[kie-server]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHECbPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_GroupIdInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV4CbPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fV4SbPEeyByIiaw8CXpQ"><![CDATA[kie-server]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fV4ibPEeyByIiaw8CXpQ">_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_GroupIdInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHESbPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fV4ybPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_originCountryOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentOriginCountry</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHEibPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fV5CbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_valueOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentValue</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHEybPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fV5SbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9_trackingNumberOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentTrackingNumber</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -400,14 +408,14 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_1EB3C47A-E371-41F7-A669-9104F87C8B09</bpmn2:outgoing>
       <bpmn2:dataOutput id="_914D6155-C729-46DC-8C8D-B719EDF729D2_dataOutputOutputX" drools:dtype="String" itemSubjectRef="__914D6155-C729-46DC-8C8D-B719EDF729D2_dataOutputOutputXItem" name="dataOutput"/>
-      <bpmn2:dataOutputAssociation id="_AcZHFSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fV5ybPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_914D6155-C729-46DC-8C8D-B719EDF729D2_dataOutputOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentTrackingNumber</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:outputSet id="_AcZHFCbPEeyByIiaw8CXpQ">
+      <bpmn2:outputSet id="_H7fV5ibPEeyByIiaw8CXpQ">
         <bpmn2:dataOutputRefs>_914D6155-C729-46DC-8C8D-B719EDF729D2_dataOutputOutputX</bpmn2:dataOutputRefs>
       </bpmn2:outputSet>
-      <bpmn2:messageEventDefinition id="_AcZHFibPEeyByIiaw8CXpQ" drools:msgref="clearance" messageRef="_AcZHFybPEeyByIiaw8CXpQ"/>
+      <bpmn2:messageEventDefinition id="_H7fV6CbPEeyByIiaw8CXpQ" drools:msgref="clearance" messageRef="_H7fV6SbPEeyByIiaw8CXpQ"/>
     </bpmn2:startEvent>
     <bpmn2:serviceTask id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126" drools:serviceimplementation="Java" drools:serviceinterface="com.dhl.clearance.DummyService" drools:serviceoperation="valuation" name="Valuation" implementation="Java" operationRef="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ServiceOperation">
       <bpmn2:extensionElements>
@@ -420,30 +428,30 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_120D0E70-94D9-4605-8E46-0229C2A00CC7</bpmn2:incoming>
       <bpmn2:outgoing>_6570E35E-65F2-47D6-A33A-7AD1F20EE2DD</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZHGCbPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fV6ibPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputX" drools:dtype="String" itemSubjectRef="__EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputXItem" name="ParameterType"/>
         <bpmn2:dataInput id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterInputX" drools:dtype="String" itemSubjectRef="__EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataOutput id="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ResultOutputX" drools:dtype="Integer" itemSubjectRef="__EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_AcZHGSbPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fV6ybPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHGibPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fV7CbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHGybPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV7SbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHHCbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHHSbPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHHibPEeyByIiaw8CXpQ">_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV7ibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fV7ybPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fV8CbPEeyByIiaw8CXpQ">_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterTypeInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHHybPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV8SbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ParameterInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHICbPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fV8ibPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126_ResultOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentValue</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -451,14 +459,14 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
     <bpmn2:endEvent id="_8C11C804-B97B-4F2C-9193-729A429D33EF">
       <bpmn2:incoming>_AB5442F4-5AE0-4232-B24D-9639415F2D48</bpmn2:incoming>
       <bpmn2:dataInput id="_8C11C804-B97B-4F2C-9193-729A429D33EF_eventInputX" drools:dtype="String" itemSubjectRef="__8C11C804-B97B-4F2C-9193-729A429D33EF_eventInputXItem" name="event"/>
-      <bpmn2:dataInputAssociation id="_AcZHIibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV9CbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_8C11C804-B97B-4F2C-9193-729A429D33EF_eventInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:inputSet id="_AcZHISbPEeyByIiaw8CXpQ">
+      <bpmn2:inputSet id="_H7fV8ybPEeyByIiaw8CXpQ">
         <bpmn2:dataInputRefs>_8C11C804-B97B-4F2C-9193-729A429D33EF_eventInputX</bpmn2:dataInputRefs>
       </bpmn2:inputSet>
-      <bpmn2:messageEventDefinition id="_AcZHIybPEeyByIiaw8CXpQ" drools:msgref="custom" messageRef="_AcZHJCbPEeyByIiaw8CXpQ"/>
+      <bpmn2:messageEventDefinition id="_H7fV9SbPEeyByIiaw8CXpQ" drools:msgref="custom" messageRef="_H7fV9ibPEeyByIiaw8CXpQ"/>
     </bpmn2:endEvent>
     <bpmn2:businessRuleTask id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C" name="Mandatory Field Check" implementation="http://www.jboss.org/drools/dmn">
       <bpmn2:extensionElements>
@@ -468,7 +476,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_6570E35E-65F2-47D6-A33A-7AD1F20EE2DD</bpmn2:incoming>
       <bpmn2:outgoing>_B15165D0-F890-438A-961E-2CA87E87CBA6</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZHJSbPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fV9ybPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputX" drools:dtype="java.lang.String" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputXItem" name="namespace"/>
         <bpmn2:dataInput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputX" drools:dtype="java.lang.String" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputXItem" name="decision"/>
         <bpmn2:dataInput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputX" drools:dtype="java.lang.String" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputXItem" name="model"/>
@@ -476,7 +484,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
         <bpmn2:dataInput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Tracking-NumberInputX" drools:dtype="String" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Tracking-NumberInputXItem" name="Tracking Number"/>
         <bpmn2:dataInput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_ValueInputX" drools:dtype="Integer" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_ValueInputXItem" name="Value"/>
         <bpmn2:dataOutput id="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Valid-FieldsOutputX" drools:dtype="Boolean" itemSubjectRef="__34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Valid-FieldsOutputXItem" name="Valid Fields"/>
-        <bpmn2:inputSet id="_AcZHJibPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fV-CbPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputX</bpmn2:dataInputRefs>
@@ -484,44 +492,44 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
           <bpmn2:dataInputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Tracking-NumberInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_ValueInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHJybPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fV-SbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Valid-FieldsOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHKCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV-ibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHKSbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHKibPEeyByIiaw8CXpQ"><![CDATA[https://kiegroup.org/dmn/_878ED686-694B-4002-9DB9-6DD411B1E77C]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHKybPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV-ybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fV_CbPEeyByIiaw8CXpQ"><![CDATA[https://kiegroup.org/dmn/_878ED686-694B-4002-9DB9-6DD411B1E77C]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fV_SbPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_namespaceInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHLCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fV_ibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHLSbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHLibPEeyByIiaw8CXpQ"><![CDATA[Valid Fields]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHLybPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fV_ybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fWACbPEeyByIiaw8CXpQ"><![CDATA[Valid Fields]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fWASbPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_decisionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHMCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWAibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHMSbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHMibPEeyByIiaw8CXpQ"><![CDATA[mandatory-field-checks]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHMybPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fWAybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fWBCbPEeyByIiaw8CXpQ"><![CDATA[mandatory-field-checks]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fWBSbPEeyByIiaw8CXpQ">_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_modelInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHNCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWBibPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentOriginCountry</bpmn2:sourceRef>
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Origin-CountryInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHNSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWBybPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Tracking-NumberInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHNibPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWCCbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentValue</bpmn2:sourceRef>
         <bpmn2:targetRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_ValueInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHNybPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fWCSbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_34CE420B-3BBA-4337-BA7D-6B7FC994B98C_Valid-FieldsOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>mandatoryFieldCheck</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -537,30 +545,30 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_BDC0411F-21FC-4385-A9B5-726FE8B9F3A1</bpmn2:incoming>
       <bpmn2:outgoing>_120D0E70-94D9-4605-8E46-0229C2A00CC7</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZHOCbPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fWCibPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputX" drools:dtype="String" itemSubjectRef="__619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputXItem" name="ParameterType"/>
         <bpmn2:dataInput id="_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterInputX" drools:dtype="String" itemSubjectRef="__619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataOutput id="_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ResultOutputX" drools:dtype="String" itemSubjectRef="__619D45FC-55B4-4D8D-B788-E0F6101D03CF_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_AcZHOSbPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fWCybPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHOibPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fWDCbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHOybPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWDSbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHPCbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHPSbPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHPibPEeyByIiaw8CXpQ">_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fWDibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fWDybPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fWECbPEeyByIiaw8CXpQ">_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterTypeInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHPybPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWESbPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ParameterInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_AcZHQCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataOutputAssociation id="_H7fWEibPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>_619D45FC-55B4-4D8D-B788-E0F6101D03CF_ResultOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>shipmentOriginCountry</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -576,26 +584,26 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_1EB3C47A-E371-41F7-A669-9104F87C8B09</bpmn2:incoming>
       <bpmn2:outgoing>_B157A780-CA33-4CE9-AA86-7F84452569DC</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZHQSbPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fWEybPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputX" drools:dtype="String" itemSubjectRef="__1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputXItem" name="ParameterType"/>
         <bpmn2:dataInput id="_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterInputX" drools:dtype="String" itemSubjectRef="__1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataOutput id="_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ResultOutputX" drools:dtype="String" itemSubjectRef="__1B7F2DEB-7C04-4661-83AD-8E58244227EA_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_AcZHQibPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fWFCbPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHQybPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7fWFSbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHRCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWFibPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHRSbPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHRibPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHRybPEeyByIiaw8CXpQ">_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7fWFybPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7fWGCbPEeyByIiaw8CXpQ"><![CDATA[java.lang.String]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7fWGSbPEeyByIiaw8CXpQ">_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterTypeInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHSCbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7fWGibPEeyByIiaw8CXpQ">
         <bpmn2:sourceRef>shipmentTrackingNumber</bpmn2:sourceRef>
         <bpmn2:targetRef>_1B7F2DEB-7C04-4661-83AD-8E58244227EA_ParameterInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
@@ -611,7 +619,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       <bpmn2:outgoing>_EFA6E640-ACCD-4B58-9FC1-D77F1E8C3C04</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
     <bpmn2:task id="_428759C9-34BB-426E-B896-7BBD93E41CD3" drools:taskName="Rest" name="Profect API">
-      <bpmn2:documentation id="_AcZHSSbPEeyByIiaw8CXpQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_H7fWGybPEeyByIiaw8CXpQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Profect API]]></drools:metaValue>
@@ -622,7 +630,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B15165D0-F890-438A-961E-2CA87E87CBA6</bpmn2:incoming>
       <bpmn2:outgoing>_C70B1A07-9072-48AB-91B2-FFC365EC72FC</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_AcZHSibPEeyByIiaw8CXpQ">
+      <bpmn2:ioSpecification id="_H7fWHCbPEeyByIiaw8CXpQ">
         <bpmn2:dataInput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputX" drools:dtype="String" itemSubjectRef="__428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputX" drools:dtype="String" itemSubjectRef="__428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_AcceptCharsetInputX" drools:dtype="String" itemSubjectRef="__428759C9-34BB-426E-B896-7BBD93E41CD3_AcceptCharsetInputXItem" name="AcceptCharset"/>
@@ -641,7 +649,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
         <bpmn2:dataInput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_UsernameInputX" drools:dtype="String" itemSubjectRef="__428759C9-34BB-426E-B896-7BBD93E41CD3_UsernameInputXItem" name="Username"/>
         <bpmn2:dataInput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_428759C9-34BB-426E-B896-7BBD93E41CD3_ResultOutputX" drools:dtype="String" itemSubjectRef="__428759C9-34BB-426E-B896-7BBD93E41CD3_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_AcZHSybPEeyByIiaw8CXpQ">
+        <bpmn2:inputSet id="_H7fWHSbPEeyByIiaw8CXpQ">
           <bpmn2:dataInputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_AcceptCharsetInputX</bpmn2:dataInputRefs>
@@ -660,42 +668,42 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
           <bpmn2:dataInputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_UsernameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_AcZHTCbPEeyByIiaw8CXpQ">
+        <bpmn2:outputSet id="_H7f8wCbPEeyByIiaw8CXpQ">
           <bpmn2:dataOutputRefs>_428759C9-34BB-426E-B896-7BBD93E41CD3_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_AcZHTSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7f8wSbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHTibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHTybPEeyByIiaw8CXpQ"><![CDATA[GET]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHUCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7f8wibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7f8wybPEeyByIiaw8CXpQ"><![CDATA[GET]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7f8xCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHUSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7f8xSbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHUibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHUybPEeyByIiaw8CXpQ"><![CDATA[#{System.getProperty("com.redhat.demo.dummy.url","http://localhost:8888/hello-resteasy")}]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHVCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7f8xibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7f8xybPEeyByIiaw8CXpQ"><![CDATA[#{System.getProperty("com.redhat.demo.dummy.url","http://localhost:8888/hello-resteasy")}]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7f8yCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHVSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7f8ySbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_428759C9-34BB-426E-B896-7BBD93E41CD3_HandleResponseErrorsInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHVibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHVybPEeyByIiaw8CXpQ"><![CDATA[true]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHWCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_HandleResponseErrorsInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7f8yibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7f8yybPEeyByIiaw8CXpQ"><![CDATA[true]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7f8zCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_HandleResponseErrorsInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_AcZHWSbPEeyByIiaw8CXpQ">
+      <bpmn2:dataInputAssociation id="_H7f8zSbPEeyByIiaw8CXpQ">
         <bpmn2:targetRef>_428759C9-34BB-426E-B896-7BBD93E41CD3_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_AcZHWibPEeyByIiaw8CXpQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_AcZHWybPEeyByIiaw8CXpQ"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_AcZHXCbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_H7f8zibPEeyByIiaw8CXpQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_H7f8zybPEeyByIiaw8CXpQ"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_H7f80CbPEeyByIiaw8CXpQ">_428759C9-34BB-426E-B896-7BBD93E41CD3_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
     </bpmn2:task>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_AcZHXSbPEeyByIiaw8CXpQ">
-    <bpmndi:BPMNPlane id="_AcZHXibPEeyByIiaw8CXpQ" bpmnElement="clearance.clearance-process">
+  <bpmndi:BPMNDiagram id="_H7f80SbPEeyByIiaw8CXpQ">
+    <bpmndi:BPMNPlane id="_H7f80ibPEeyByIiaw8CXpQ" bpmnElement="clearance.clearance-process">
       <bpmndi:BPMNShape id="shape__428759C9-34BB-426E-B896-7BBD93E41CD3" bpmnElement="_428759C9-34BB-426E-B896-7BBD93E41CD3">
         <dc:Bounds height="102.0" width="154.0" x="1191.0" y="242.0"/>
       </bpmndi:BPMNShape>
@@ -777,12 +785,12 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_AcZHXybPEeyByIiaw8CXpQ" type="BPSimData">
+  <bpmn2:relationship id="_H7f80ybPEeyByIiaw8CXpQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_428759C9-34BB-426E-B896-7BBD93E41CD3" id="_AcZt8CbPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_428759C9-34BB-426E-B896-7BBD93E41CD3" id="_H7f81CbPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -802,7 +810,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1B7F2DEB-7C04-4661-83AD-8E58244227EA" id="_AcZt8SbPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1B7F2DEB-7C04-4661-83AD-8E58244227EA" id="_H7f81SbPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -822,7 +830,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_619D45FC-55B4-4D8D-B788-E0F6101D03CF" id="_AcZt8ibPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_619D45FC-55B4-4D8D-B788-E0F6101D03CF" id="_H7f81ibPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -842,7 +850,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C" id="_AcZt8ybPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_34CE420B-3BBA-4337-BA7D-6B7FC994B98C" id="_H7f81ybPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -862,7 +870,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126" id="_AcZt9CbPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EAA5D42B-9685-4F1A-AF8F-DECD74AEB126" id="_H7f82CbPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -882,7 +890,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9" id="_AcZt9SbPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_778A95EF-2259-4C6B-9B38-9E1FEC64D5F9" id="_H7f82SbPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -902,7 +910,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_10DAE09D-A660-41F1-8A7C-0A1065952E6F" id="_AcZt9ibPEeyByIiaw8CXpQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_10DAE09D-A660-41F1-8A7C-0A1065952E6F" id="_H7f82ibPEeyByIiaw8CXpQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -925,7 +933,7 @@ kcontext.setVariable("categorizationRequest", new com.dhl.clearance.Categorizati
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_AcZG4CbPEeyByIiaw8CXpQ</bpmn2:source>
-    <bpmn2:target>_AcZG4CbPEeyByIiaw8CXpQ</bpmn2:target>
+    <bpmn2:source>_H7fVsCbPEeyByIiaw8CXpQ</bpmn2:source>
+    <bpmn2:target>_H7fVsCbPEeyByIiaw8CXpQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
