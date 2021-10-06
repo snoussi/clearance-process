@@ -17,20 +17,17 @@ public class CategorizationResult implements java.io.Serializable {
 	public CategorizationResult() {
 	}
 
+	public CategorizationResult(java.lang.Integer value, java.lang.String category) {
+		this.value = value;
+		this.category = category;
+	}
+	
 	public java.lang.Integer getValue() {
 		return this.value;
 	}
 
 	public void setValue(java.lang.Integer value) {
 		this.value = value;
-	}
-
-	public CategorizationResult(java.lang.Integer value, java.lang.String category) {
-		this.value = value;
-		this.category = category;
-	}
-
-	public CategorizationResult() {
 	}
 
 	public java.lang.String getCategory() {
