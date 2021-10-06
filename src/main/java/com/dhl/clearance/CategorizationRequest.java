@@ -24,6 +24,9 @@ public class CategorizationRequest implements java.io.Serializable {
 		this.value = value;
 	}
 
+	public CategorizationRequest() {
+	}
+
 	public CategorizationRequest(java.lang.Integer value) {
 		this.value = value;
 	}
