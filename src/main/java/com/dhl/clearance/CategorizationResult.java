@@ -15,7 +15,7 @@ public class CategorizationResult implements java.io.Serializable {
 	@JsonProperty("Category")
 	private java.lang.String category;
 
-	public CategorizationRequest() {
+	public CategorizationResult() {
 	}
 
 	public java.lang.Integer getValue() {
@@ -26,7 +26,7 @@ public class CategorizationResult implements java.io.Serializable {
 		this.value = value;
 	}
 
-	public CategorizationRequest(java.lang.Integer value,java.lang.String category) {
+	public CategorizationResult(java.lang.Integer value, java.lang.String category) {
 		this.value = value;
 		this.category = category;
 	}
