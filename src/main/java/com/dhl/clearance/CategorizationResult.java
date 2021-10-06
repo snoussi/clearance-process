@@ -9,10 +9,11 @@ public class CategorizationResult implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@JsonProperty("Value")
-	private java.lang.Integer value;
 	@JsonProperty("Category")
 	private java.lang.String category;
+	@JsonProperty("Value")
+	private java.lang.Integer value;
+
 
 	public CategorizationResult() {
 	}
@@ -22,20 +23,20 @@ public class CategorizationResult implements java.io.Serializable {
 		this.category = category;
 	}
 	
-	public java.lang.Integer getValue() {
-		return this.value;
-	}
-
-	public void setValue(java.lang.Integer value) {
-		this.value = value;
-	}
-
 	public java.lang.String getCategory() {
 		return category;
 	}
 
 	public void setCategory(java.lang.String category) {
 		this.category = category;
+	}
+	
+	public java.lang.Integer getValue() {
+		return this.value;
+	}
+
+	public void setValue(java.lang.Integer value) {
+		this.value = value;
 	}
 	
     @Override
